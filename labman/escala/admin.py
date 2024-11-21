@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import funcionario
+from .models import Funcionario, Turno
 
 # Register your models here.
 
-admin.site.register(funcionario)
+admin.site.register(Funcionario)
+admin.site.register(Turno)
